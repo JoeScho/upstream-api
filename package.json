@@ -1,0 +1,26 @@
+{
+  "name": "upstream-api",
+  "version": "1.0.0",
+  "description": "Easily create static upstream dummy APIs for use in testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "test:d": "mocha debug --recursive"
+  },
+  "keywords": [
+    "test",
+    "api",
+    "server"
+  ],
+  "author": "JoeScho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "needle": "^2.2.4"
+  }
+}

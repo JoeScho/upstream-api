@@ -1,0 +1,18 @@
+{
+  "port": 8000,
+  "endpoints": [
+    {
+      "path": "test",
+      "method": "get",
+      "status": 200,
+      "delay": 200,
+      "body": {
+        "success": true,
+        "foo": "bar"
+      },
+      "headers": [
+        { "x-correlation-id": "abc123" }
+      ]
+    }
+  ]
+}
