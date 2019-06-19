@@ -21,6 +21,7 @@ const res = await needle('get', 'http://localhost:8000/test');
 
 ## Config
 These are the possible configuration options:
+
 | name | description | example | required |
 | ---- | ----------- | ------- | -------- |
 | port | The port to host the server on | 8000 | yes |
